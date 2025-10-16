@@ -1,9 +1,9 @@
 ﻿mt5:
-  login: 12345678
-  password: "CAMBIAR_POR_TU_CONTRASEÑA"
+  login: 52547528
+  password: "0IYi17@wgLmXIh"
   server: "ICMarkets-Demo"
   use_local_terminal: true
-  path_terminal: "C:\\Program Files\\MetaTrader 5\\terminal64.exe"
+  path_terminal: "C:\\Program Files\\MetaTrader 5 IC Markets Global\\terminal64.exe"
 
 risk:
   max_risk_per_trade: 0.01
