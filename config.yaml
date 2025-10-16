@@ -1,0 +1,28 @@
+﻿mt5:
+  login: 12345678
+  password: "CAMBIAR_POR_TU_CONTRASEÑA"
+  server: "ICMarkets-Demo"
+  use_local_terminal: true
+  path_terminal: "C:\\Program Files\\MetaTrader 5\\terminal64.exe"
+
+risk:
+  max_risk_per_trade: 0.01
+  max_total_drawdown: 0.2
+
+strategy:
+  ema_period: 200
+  fib_retrace: 0.5
+  stop_loss_type: "swing"
+  trailing_every_R: 1.0
+  trailing_move_R: 0.5
+
+symbols:
+  - "EURUSD"
+  - "GBPUSD"
+  - "USDJPY"
+
+timeframe: "H1"
+
+logging:
+  level: INFO
+  file: "bot.log"
